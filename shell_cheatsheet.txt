@@ -126,7 +126,9 @@ cat > file
 cat file | grep -iv 'a' | tr '\n' ' '
 
 cat file: Reads the content of the 'file'.
-grep -iv 'a': Filters out lines containing 'a' (case-insensitive).
+grep -iv 'a': Filters out lines containing 'a' (case-insensitive)
+-i: Perform a case-insensitive match.
+-v: Invert the match, select lines that do not match the pattern.
 tr '\n' ' ': Replaces newline characters with a space.
 
 6. You are given a CSV file where each row contains the name of a city and its state separated by a comma. Your task is to replace the newlines in the file with semicolons as demonstrated in the sample.

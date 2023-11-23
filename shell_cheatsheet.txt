@@ -476,6 +476,8 @@ Solution:
 count=0 
 awk '{ printf ($0); count++; if (count%2 == 0) printf "\n"; else printf ";"; } '
 
+printf ($0): Print the current line without a newline.
+
 29. Input Format
 
 Each line contains a credit card number in the form dddd dddd dddd dddd, where  denotes a decimal digit (i.e.,  through ). There are a total of  lines of credit card numbers.

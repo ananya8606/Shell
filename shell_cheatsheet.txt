@@ -260,6 +260,8 @@ done
 echo "$text"
 
 
+The // at the beginning of [a-z] means to replace all occurrences (not just the first one). \ is escape character.
+
 11. Input:
 Namibia
 Nauru
